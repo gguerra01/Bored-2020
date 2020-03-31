@@ -74,7 +74,7 @@ class SignUpViewController: UIViewController {
         }
         else{
             //create user
-            Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>) { (result, err) in
+            Auth.auth().createUser(withEmail: "", password: "") { (result, err) in
                 //check for errors
                 if err != nil {
                     //there was an error creating user
@@ -89,9 +89,9 @@ class SignUpViewController: UIViewController {
         }
         
     }
-    
     func showError(message:String){
         errorLabel.text = message
         errorLabel.alpha = 1
     }
+    
 }
