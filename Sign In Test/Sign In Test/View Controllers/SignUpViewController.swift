@@ -40,7 +40,7 @@ class SignUpViewController: UIViewController {
         Utilities.styleTextField(emailTextField)
         Utilities.styleTextField(passwordTextField)
         Utilities.styleFilledButton(signUpButton)
-    
+    }
 
     /*
     // MARK: - Navigation
@@ -52,7 +52,7 @@ class SignUpViewController: UIViewController {
     }
     */
     
-    @IBAction func signUpTapped(_ sender: Any) {
+    @IBAction func signUpTapped() {
     }
     
 }

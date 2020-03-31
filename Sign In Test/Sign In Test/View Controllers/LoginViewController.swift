@@ -30,8 +30,13 @@ class LoginViewController: UIViewController {
     }
     
     func setupElements(){
-        
+        //hides error label
         errorLabel.alpha = 0
+        
+        //style elements
+        Utilities.styleTextField(firstNameTextField)
+        Utilities.styleTextField(lastNameTextField)
+        Utilities.styleFilledButton(loginButton)
         
     }
     
