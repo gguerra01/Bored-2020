@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		81B65D2A2432F7CC00AF6EA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B65D292432F7CC00AF6EA4 /* HomeViewController.swift */; };
 		81B65D2D243306C500AF6EA4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B65D2C243306C500AF6EA4 /* Utilities.swift */; };
 		81B65D3224330FF200AF6EA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B65D3124330FF200AF6EA4 /* GoogleService-Info.plist */; };
+		81B65D342433261200AF6EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B65D332433261200AF6EA4 /* Constants.swift */; };
 		AFB0B282A8EB2B9562CE4E4A /* Pods_Sign_In_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B6D93D18F290BED3CFBEF43 /* Pods_Sign_In_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		81B65D292432F7CC00AF6EA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		81B65D2C243306C500AF6EA4 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		81B65D3124330FF200AF6EA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81B65D332433261200AF6EA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D9FF0E63C5D761B7DB9916D3 /* Pods-Sign In Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign In Test.debug.xcconfig"; path = "Target Support Files/Pods-Sign In Test/Pods-Sign In Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				81B65D2C243306C500AF6EA4 /* Utilities.swift */,
+				81B65D332433261200AF6EA4 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -111,7 +114,6 @@
 				D9FF0E63C5D761B7DB9916D3 /* Pods-Sign In Test.debug.xcconfig */,
 				03C810593D147011E48C7FDC /* Pods-Sign In Test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,6 +248,7 @@
 				81B65D282432F7BF00AF6EA4 /* LoginViewController.swift in Sources */,
 				81B65D142432F75700AF6EA4 /* SceneDelegate.swift in Sources */,
 				81B65D2A2432F7CC00AF6EA4 /* HomeViewController.swift in Sources */,
+				81B65D342433261200AF6EA4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

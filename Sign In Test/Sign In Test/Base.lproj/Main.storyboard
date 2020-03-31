@@ -140,7 +140,7 @@
         <!--Home View Controller-->
         <scene sceneID="UhI-CW-UyN">
             <objects>
-                <viewController id="tH4-Gx-fv1" customClass="HomeViewController" customModule="Sign_In_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="tH4-Gx-fv1" customClass="HomeViewController" customModule="Sign_In_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CRd-8l-FfN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
