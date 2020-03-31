@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class SignUpViewController: UIViewController {
 
@@ -51,18 +53,45 @@ class SignUpViewController: UIViewController {
         }
         //check fields are filled in
         
+        let cleanedPassword = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        if Utilities.isPasswordValid(cleanedPassword) == false {
+            //password isnt secure
+            return "Please make sure your password is set to at east 8 characters, contains a special character and a number."
+        }
+        
         return nil
     }
     
     @IBAction func signUpTapped() {
         
         //validate fields
+        let error = validateFields()
         
+        if error  != nil {
+            //something wrong with field
+            showError(message: error!)
+        }
+        else{
+            //create user
+            Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>) { (result, err) in
+                //check for errors
+                if err != nil {
+                    //there was an error creating user
+                    self.showError(message: "Error creating user")
+                }
+                else {
+                    //user created successfully
+                }
+            
+            }
+            //transition to home screen
+        }
         
-        //create user
-        
-        
-        //transition to home screen
     }
     
+    func showError(message:String){
+        errorLabel.text = message
+        errorLabel.alpha = 1
+    }
 }
