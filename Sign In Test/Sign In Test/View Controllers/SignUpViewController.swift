@@ -25,6 +25,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     
     @IBOutlet weak var errorLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -64,53 +66,66 @@ class SignUpViewController: UIViewController {
         return nil
     }
     
-    @IBAction func signUpTapped(sender:Any) {
-        
-        //validate fields
+    @IBAction func signUpTapped(_ sender: Any) {
+        // Validate the fields
         let error = validateFields()
         
-        if error  != nil {
-            //something wrong with field
-            showError(message: error!)
+        if error != nil {
+            
+            // There's something wrong with the fields, show error message
+            showError(error!)
         }
-        else{
-            //create cleaned versions of data
+        else {
+            
+            // Create cleaned versions of the data
             let firstName = firstNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-            let lastName = lastNameTextField.text!.trimmingCharacters(in:.whitespacesAndNewlines)
-            let email = emailTextField.text!.trimmingCharacters(in:.whitespacesAndNewlines)
+            let lastName = lastNameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
             
-            //create user
+            // Create the user
             Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
-                //check for errors
+                
+                // Check for errors
                 if err != nil {
-                    //there was an error creating user
-                    self.showError(message: "Error creating user")
+                    
+                    // There was an error creating the user
+                    self.showError("Error creating user")
                 }
                 else {
-                    //user created successfully
+                    
+                    // User was created successfully
                     let db = Firestore.firestore()
-                    db.collection("users").addDocument(data: ["firstname":firstName, "lastname":lastName, "uid": result!.user.uid]) { (error) in
-//                        if error is != nil {
-//                            self.showError(message: "Error with user data")
-//                        }
+                    
+                    db.collection("users").addDocument(data: ["firstname":firstName, "lastname":lastName, "uid": result!.user.uid ]) { (error) in
+                        
+                        if error != nil {
+                            // Show error message
+                            self.showError("Error saving user data")
+                        }
                     }
-                    //transition to homescreen
+                    
+                    // Transition to the home screen
                     self.transitionToHome()
                 }
-            
+                
             }
+            
         }
-        
     }
-    func showError(message:String){
+    func showError(_ message:String) {
+        
         errorLabel.text = message
         errorLabel.alpha = 1
     }
-    func transitionToHome(){
+    
+    func transitionToHome() {
+        
         let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        
         view.window?.rootViewController = homeViewController
         view.window?.makeKeyAndVisible()
+        
     }
     
 }
