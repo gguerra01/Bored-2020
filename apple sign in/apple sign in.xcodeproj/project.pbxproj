@@ -15,6 +15,21 @@
 		811E76F9243BE7E400CE1E05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811E76F8243BE7E400CE1E05 /* Preview Assets.xcassets */; };
 		811E76FC243BE7E400CE1E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811E76FA243BE7E400CE1E05 /* LaunchScreen.storyboard */; };
 		811E7704243BEC6100CE1E05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811E7703243BEC6100CE1E05 /* GoogleService-Info.plist */; };
+		811E7717243BF16800CE1E05 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7706243BF16600CE1E05 /* Profile.swift */; };
+		811E7718243BF16800CE1E05 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7707243BF16600CE1E05 /* ActivityIndicator.swift */; };
+		811E7719243BF16800CE1E05 /* DocumentSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7708243BF16600CE1E05 /* DocumentSerializable.swift */; };
+		811E771A243BF16800CE1E05 /* SparkKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7709243BF16600CE1E05 /* SparkKeys.swift */; };
+		811E771B243BF16800CE1E05 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E770A243BF16600CE1E05 /* SignInWithAppleView.swift */; };
+		811E771C243BF16800CE1E05 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E770B243BF16600CE1E05 /* Typealiases.swift */; };
+		811E771D243BF16800CE1E05 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E770C243BF16600CE1E05 /* ActivityIndicatorView.swift */; };
+		811E771E243BF16800CE1E05 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E770E243BF16700CE1E05 /* Spark.swift */; };
+		811E771F243BF16800CE1E05 /* SparkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E770F243BF16700CE1E05 /* SparkError.swift */; };
+		811E7720243BF16800CE1E05 /* SparkUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7710243BF16700CE1E05 /* SparkUI.swift */; };
+		811E7721243BF16800CE1E05 /* SparkFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7711243BF16700CE1E05 /* SparkFirestore.swift */; };
+		811E7722243BF16800CE1E05 /* SparkAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7712243BF16700CE1E05 /* SparkAuth.swift */; };
+		811E7723243BF16800CE1E05 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7714243BF16800CE1E05 /* ProfileView.swift */; };
+		811E7724243BF16800CE1E05 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7715243BF16800CE1E05 /* SignInView.swift */; };
+		811E7725243BF16800CE1E05 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7716243BF16800CE1E05 /* LaunchScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +42,21 @@
 		811E76FB243BE7E400CE1E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811E76FD243BE7E400CE1E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		811E7703243BEC6100CE1E05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		811E7706243BF16600CE1E05 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		811E7707243BF16600CE1E05 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		811E7708243BF16600CE1E05 /* DocumentSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentSerializable.swift; sourceTree = "<group>"; };
+		811E7709243BF16600CE1E05 /* SparkKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkKeys.swift; sourceTree = "<group>"; };
+		811E770A243BF16600CE1E05 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		811E770B243BF16600CE1E05 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		811E770C243BF16600CE1E05 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		811E770E243BF16700CE1E05 /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		811E770F243BF16700CE1E05 /* SparkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkError.swift; sourceTree = "<group>"; };
+		811E7710243BF16700CE1E05 /* SparkUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkUI.swift; sourceTree = "<group>"; };
+		811E7711243BF16700CE1E05 /* SparkFirestore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkFirestore.swift; sourceTree = "<group>"; };
+		811E7712243BF16700CE1E05 /* SparkAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkAuth.swift; sourceTree = "<group>"; };
+		811E7714243BF16800CE1E05 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		811E7715243BF16800CE1E05 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		811E7716243BF16800CE1E05 /* LaunchScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		B0AA1E09841E8F90D2A0513B /* Pods-apple sign in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apple sign in.release.xcconfig"; path = "Target Support Files/Pods-apple sign in/Pods-apple sign in.release.xcconfig"; sourceTree = "<group>"; };
 		B54C9A2E116221445E28E7DB /* Pods_apple_sign_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apple_sign_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE39FE61B162A09962936602 /* Pods-apple sign in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apple sign in.debug.xcconfig"; path = "Target Support Files/Pods-apple sign in/Pods-apple sign in.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +112,9 @@
 		811E76EE243BE7D300CE1E05 /* apple sign in */ = {
 			isa = PBXGroup;
 			children = (
+				811E7705243BF16600CE1E05 /* Helpers */,
+				811E770D243BF16700CE1E05 /* Spark */,
+				811E7713243BF16800CE1E05 /* Views */,
 				811E76EF243BE7D300CE1E05 /* AppDelegate.swift */,
 				811E76F1243BE7D300CE1E05 /* SceneDelegate.swift */,
 				811E76F3243BE7D300CE1E05 /* ContentView.swift */,
@@ -100,6 +133,42 @@
 				811E76F8243BE7E400CE1E05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		811E7705243BF16600CE1E05 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				811E7706243BF16600CE1E05 /* Profile.swift */,
+				811E7707243BF16600CE1E05 /* ActivityIndicator.swift */,
+				811E7708243BF16600CE1E05 /* DocumentSerializable.swift */,
+				811E7709243BF16600CE1E05 /* SparkKeys.swift */,
+				811E770A243BF16600CE1E05 /* SignInWithAppleView.swift */,
+				811E770B243BF16600CE1E05 /* Typealiases.swift */,
+				811E770C243BF16600CE1E05 /* ActivityIndicatorView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		811E770D243BF16700CE1E05 /* Spark */ = {
+			isa = PBXGroup;
+			children = (
+				811E770E243BF16700CE1E05 /* Spark.swift */,
+				811E770F243BF16700CE1E05 /* SparkError.swift */,
+				811E7710243BF16700CE1E05 /* SparkUI.swift */,
+				811E7711243BF16700CE1E05 /* SparkFirestore.swift */,
+				811E7712243BF16700CE1E05 /* SparkAuth.swift */,
+			);
+			path = Spark;
+			sourceTree = "<group>";
+		};
+		811E7713243BF16800CE1E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				811E7714243BF16800CE1E05 /* ProfileView.swift */,
+				811E7715243BF16800CE1E05 /* SignInView.swift */,
+				811E7716243BF16800CE1E05 /* LaunchScreenView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +288,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				811E76F0243BE7D300CE1E05 /* AppDelegate.swift in Sources */,
+				811E7721243BF16800CE1E05 /* SparkFirestore.swift in Sources */,
+				811E771D243BF16800CE1E05 /* ActivityIndicatorView.swift in Sources */,
+				811E7719243BF16800CE1E05 /* DocumentSerializable.swift in Sources */,
+				811E7720243BF16800CE1E05 /* SparkUI.swift in Sources */,
+				811E7718243BF16800CE1E05 /* ActivityIndicator.swift in Sources */,
+				811E7724243BF16800CE1E05 /* SignInView.swift in Sources */,
+				811E7717243BF16800CE1E05 /* Profile.swift in Sources */,
+				811E771A243BF16800CE1E05 /* SparkKeys.swift in Sources */,
+				811E7723243BF16800CE1E05 /* ProfileView.swift in Sources */,
+				811E771F243BF16800CE1E05 /* SparkError.swift in Sources */,
+				811E771C243BF16800CE1E05 /* Typealiases.swift in Sources */,
+				811E771B243BF16800CE1E05 /* SignInWithAppleView.swift in Sources */,
 				811E76F2243BE7D300CE1E05 /* SceneDelegate.swift in Sources */,
 				811E76F4243BE7D300CE1E05 /* ContentView.swift in Sources */,
+				811E771E243BF16800CE1E05 /* Spark.swift in Sources */,
+				811E7722243BF16800CE1E05 /* SparkAuth.swift in Sources */,
+				811E7725243BF16800CE1E05 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
