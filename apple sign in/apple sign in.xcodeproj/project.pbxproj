@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		811E76F6243BE7E400CE1E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811E76F5243BE7E400CE1E05 /* Assets.xcassets */; };
 		811E76F9243BE7E400CE1E05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811E76F8243BE7E400CE1E05 /* Preview Assets.xcassets */; };
 		811E76FC243BE7E400CE1E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811E76FA243BE7E400CE1E05 /* LaunchScreen.storyboard */; };
+		811E7704243BEC6100CE1E05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 811E7703243BEC6100CE1E05 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		811E76F8243BE7E400CE1E05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		811E76FB243BE7E400CE1E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811E76FD243BE7E400CE1E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811E7703243BEC6100CE1E05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0AA1E09841E8F90D2A0513B /* Pods-apple sign in.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apple sign in.release.xcconfig"; path = "Target Support Files/Pods-apple sign in/Pods-apple sign in.release.xcconfig"; sourceTree = "<group>"; };
 		B54C9A2E116221445E28E7DB /* Pods_apple_sign_in.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_apple_sign_in.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE39FE61B162A09962936602 /* Pods-apple sign in.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apple sign in.debug.xcconfig"; path = "Target Support Files/Pods-apple sign in/Pods-apple sign in.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				EE39FE61B162A09962936602 /* Pods-apple sign in.debug.xcconfig */,
 				B0AA1E09841E8F90D2A0513B /* Pods-apple sign in.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +88,7 @@
 				811E76F5243BE7E400CE1E05 /* Assets.xcassets */,
 				811E76FA243BE7E400CE1E05 /* LaunchScreen.storyboard */,
 				811E76FD243BE7E400CE1E05 /* Info.plist */,
+				811E7703243BEC6100CE1E05 /* GoogleService-Info.plist */,
 				811E76F7243BE7E400CE1E05 /* Preview Content */,
 			);
 			path = "apple sign in";
@@ -161,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				811E76FC243BE7E400CE1E05 /* LaunchScreen.storyboard in Resources */,
+				811E7704243BEC6100CE1E05 /* GoogleService-Info.plist in Resources */,
 				811E76F9243BE7E400CE1E05 /* Preview Assets.xcassets in Resources */,
 				811E76F6243BE7E400CE1E05 /* Assets.xcassets in Resources */,
 			);
