@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-779" y="-348"/>
         </scene>
-        <!--Item-->
+        <!--Recommended-->
         <scene sceneID="AbU-ks-Upk">
             <objects>
                 <viewController id="n8W-l4-Paz" sceneMemberID="viewController">
@@ -44,18 +44,25 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAa-Ou-nQh">
+                                <rect key="frame" x="180" y="147" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45519769189999998" green="0.30756717919999998" blue="0.5878382325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="tertiarySystemFillColor" red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rzi-FY-mvP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="star.fill" catalog="system" id="T9n-lH-xIG"/>
+                    <tabBarItem key="tabBarItem" title="Recommended" image="star.fill" catalog="system" id="T9n-lH-xIG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lIM-UG-A56" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-359.4202898550725" y="418.52678571428572"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="1n4-mu-4gI">
             <objects>
                 <viewController id="ccz-7w-rSb" sceneMemberID="viewController">
@@ -76,13 +83,13 @@
                         <color key="backgroundColor" red="0.45519769189999998" green="0.30756717919999998" blue="0.5878382325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ykh-Mi-QDE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="map.fill" catalog="system" id="doR-2q-knu"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map.fill" catalog="system" id="doR-2q-knu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QXS-WY-ma9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-964" y="419"/>
         </scene>
-        <!--Item-->
+        <!--Favorites-->
         <scene sceneID="Xv9-JL-HWQ">
             <objects>
                 <viewController id="1nB-pl-Ifu" sceneMemberID="viewController">
@@ -100,11 +107,18 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Page 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPj-b1-17d">
+                                <rect key="frame" x="182" y="142" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45519769189999998" green="0.30756717919999998" blue="0.5878382325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="TCw-5j-kIx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="heart.fill" catalog="system" id="iJw-xg-hEj"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="heart.fill" catalog="system" id="iJw-xg-hEj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bc-tQ-X6t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
