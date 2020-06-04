@@ -8,17 +8,26 @@ A view showing a list of landmarks.
 import SwiftUI
 
 struct LandmarkList: View {
+    
     var body: some View {
-        NavigationView {
-            List(landmarkData) { landmark in
-                NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
-                    LandmarkRow(landmark: landmark)
+        
+        VStack {
+            NavigationView {
+                 
+                
+                List(landmarkData) { landmark in
+                    NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
+                .navigationBarTitle(Text("City: Red Bank"))
+                
             }
-            .navigationBarTitle(Text("Landmarks"))
+            Text("Select a Place")
         }
     }
 }
+
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {

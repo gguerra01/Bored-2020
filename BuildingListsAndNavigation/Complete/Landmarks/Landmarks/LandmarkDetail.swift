@@ -23,14 +23,16 @@ struct LandmarkDetail: View {
             VStack(alignment: .leading) {
                 Text(landmark.name)
                     .font(.title)
-
+                Text(landmark.category)
+                    .font(.subheadline)
                 HStack(alignment: .top) {
-                    Text(landmark.park)
+                    Text(landmark.address)
                         .font(.subheadline)
                     Spacer()
-                    Text(landmark.state)
-                        .font(.subheadline)
                 }
+                Text(landmark.number)
+                .font(.subheadline)
+
             }
             .padding()
 

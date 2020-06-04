@@ -1,107 +1,132 @@
 [
-
+    {
+        "name": "Count Baise Park",
+        "city": "Red Bank",
+        "id": 1001,
+        "address": "Henry St, Red Bank, NJ 07701",
+        "category": "Category: Park",
+        "number": "(732)-530-2782",
+        "coordinates": {
+            "longitude": -74.068830,
+            "latitude": 40.339200
+        },
+        "imageName": "baisepark"
+    },
+    {
+        "name": "Yestercades",
+        "city": "Red Bank",
+        "id": 1002,
+        "address": "80 Broad St, Red Bank, NJ 07701",
+        "category": "Category: Fun",
+        "number": "(732)-383-7873",
+        "coordinates": {
+            "longitude": -74.065520,
+            "latitude": 40.349460
+        },
+        "imageName": "yestercades"
+    },
+    {
+        "name": "Marine Park",
+        "city": "Red Bank",
+        "id": 1003,
+        "address": "Marine Park, Red Bank, NJ 07701",
+        "category": "Category: Park",
+        "number": "(732)-530-2782",
+        "coordinates": {
+            "longitude": -74.065000,
+            "latitude": 40.354240
+        },
+        "imageName": "marinepark"
+    },
+    {
+        "name": "Cluck U Chicken",
+        "city": "Red Bank",
+        "id": 1004,
+        "address": "50 Water St, Red Bank, NJ 07701",
+        "category": "Category: Food",
+        "number": "(732)-530-2000",
+        "coordinates": {
+            "longitude": -74.070110,
+            "latitude": 40.350670
+        },
+        "imageName": "clucku"
+    },
+    {
+        "name": "Starbucks",
+        "city": "Red Bank",
+        "id": 1005,
+        "address": "6 White St, Red Bank, NJ 07701",
+        "category": "Category: Cafe",
+        "number": "(732)-530-3667",
+        "coordinates": {
+            "longitude": -74.065800,
+            "latitude": 40.350710
+        },
+        "imageName": "starbucks"
+    },
+    {
+        "name": "New Corner Ristorante Italiano",
+        "city": "Red Bank",
+        "id": 1006,
+        "address": "22 E Front St, Red Bank, NJ 07701",
+        "category": "Category: Food",
+        "number": "(732) 530-1007",
+        "coordinates": {
+            "longitude": -74.064400,
+            "latitude": 40.352180
+        },
+        "imageName": "newcorner"
+    },
     {
         "name": "Red Bank Armory",
-        "category": "Rivers",
         "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1001,
-        "park": "76 Chestnut St, Red Bank, NJ 07701",
+        "id": 1007,
+        "address": "76 Chestnut St, Red Bank, NJ 07701",
+        "category": "Category: Fun",
+        "number": "(732)-450-9001",
         "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
+            "longitude": -74.072083,
+            "latitude": 40.347382
         },
         "imageName": "armory"
     },
     {
-        "name": "Yestercades",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1002,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "yes"
-    },
-    {
-        "name": "Count Baise Theater",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1003,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "countbasietheater"
-    },
-    {
         "name": "Riverside Gardens Park",
-        "category": "Rivers",
         "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1004,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "riverpark"
-    },
-    {
-        "name": "Surf Taco",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1005,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "surf"
-    },
-    {
-        "name": "Bow Tie Cinemas",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1006,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "bow"
-    },
-    {
-        "name": "Escape Room",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
-        "id": 1007,
-        "park": "",
-        "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
-        },
-        "imageName": "trap"
-    },
-    {
-        "name": "Playa Bowls",
-        "category": "Rivers",
-        "city": "Red Bank",
-        "state": "New Jersey",
         "id": 1008,
-        "park": "",
+        "address": "42 W Front St, Red Bank, NJ 07701",
+        "category": "Category: Park",
+        "number": "(732)-530-2782",
         "coordinates": {
-            "longitude": -74.072080,
-            "latitude": 40.347380
+            "longitude": -74.066910,
+            "latitude": 40.351930
         },
-        "imageName": "playa"
+        "imageName": "riversidepark"
+    },
+    {
+        "name": "Chipotle",
+        "city": "Red Bank",
+        "id": 1009,
+        "address": "20 Water St, Red Bank, NJ 07701",
+        "category": "Category: Food",
+        "number": "(732)-758-8524",
+        "coordinates": {
+            "longitude": -74.070110,
+            "latitude": 40.350670
+        },
+        "imageName": "chipotle"
+    },
+    {
+        "name": "Two River Theater",
+        "city": "Red Bank",
+        "id": 1010,
+        "address": "21 Bridge Ave, Red Bank, NJ 07701",
+        "category": "Category: Theater",
+        "number": "(732)-345-1400",
+        "coordinates": {
+            "longitude": -74.074852,
+            "latitude": 40.346722
+        },
+        "imageName": "tworiver"
     }
 ]

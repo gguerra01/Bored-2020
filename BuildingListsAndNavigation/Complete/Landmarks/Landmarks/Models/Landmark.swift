@@ -13,9 +13,10 @@ struct Landmark: Hashable, Codable, Identifiable {
     var name: String
     fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
-    var state: String
-    var park: String
-    var category: Category
+    var address: String
+    var category: String
+    var number: String
+
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
